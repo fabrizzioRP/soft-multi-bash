@@ -14,5 +14,5 @@ for(( i=1; i<=$val1; i++  )) do
 	done
 done >> results.txt
 
-echo "Your file is created correctly on this path : "
+echo "Your file was successfully created in this path : "
 echo $(pwd)/results.txt
